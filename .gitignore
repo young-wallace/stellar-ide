@@ -16,8 +16,6 @@ node_modules/
 # Misc
 .DS_Store
 *.pem
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -30,7 +28,6 @@ lerna-debug.log*
 .pnpm-debug.log*
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .project
@@ -60,3 +57,4 @@ Thumbs.db
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
